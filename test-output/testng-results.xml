@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="97088" started-at="2020-04-30T09:20:31Z" finished-at="2020-04-30T09:22:08Z">
+    <groups>
+    </groups>
+    <test name="CreateCustomerTest" duration-ms="97088" started-at="2020-04-30T09:20:31Z" finished-at="2020-04-30T09:22:08Z">
+      <class name="Com.actitime.testscripts.CreateCustomerTest">
+        <test-method status="PASS" signature="classsetup(java.lang.String)[pri:0, instance:Com.actitime.testscripts.CreateCustomerTest@31ef45e3]" name="classsetup" is-config="true" duration-ms="15916" started-at="2020-04-30T09:20:31Z" finished-at="2020-04-30T09:20:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classsetup -->
+        <test-method status="PASS" signature="loginSetup()[pri:0, instance:Com.actitime.testscripts.CreateCustomerTest@31ef45e3]" name="loginSetup" is-config="true" duration-ms="25439" started-at="2020-04-30T09:20:47Z" finished-at="2020-04-30T09:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="PASS" signature="createCustomerWithNameAndDescription()[pri:0, instance:Com.actitime.testscripts.CreateCustomerTest@31ef45e3]" name="createCustomerWithNameAndDescription" duration-ms="18041" started-at="2020-04-30T09:21:12Z" finished-at="2020-04-30T09:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerWithNameAndDescription -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Com.actitime.testscripts.CreateCustomerTest@31ef45e3]" name="logout" is-config="true" duration-ms="5358" started-at="2020-04-30T09:21:30Z" finished-at="2020-04-30T09:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="loginSetup()[pri:0, instance:Com.actitime.testscripts.CreateCustomerTest@31ef45e3]" name="loginSetup" is-config="true" duration-ms="8261" started-at="2020-04-30T09:21:35Z" finished-at="2020-04-30T09:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="PASS" signature="createcustmer()[pri:0, instance:Com.actitime.testscripts.CreateCustomerTest@31ef45e3]" name="createcustmer" duration-ms="13477" started-at="2020-04-30T09:21:44Z" finished-at="2020-04-30T09:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustmer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Com.actitime.testscripts.CreateCustomerTest@31ef45e3]" name="logout" is-config="true" duration-ms="4683" started-at="2020-04-30T09:21:57Z" finished-at="2020-04-30T09:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="classteardown()[pri:0, instance:Com.actitime.testscripts.CreateCustomerTest@31ef45e3]" name="classteardown" is-config="true" duration-ms="5883" started-at="2020-04-30T09:22:02Z" finished-at="2020-04-30T09:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classteardown -->
+      </class> <!-- Com.actitime.testscripts.CreateCustomerTest -->
+    </test> <!-- CreateCustomerTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="CreateCustomerTest(failed)">
+    <classes>
+      <class name="Com.actitime.testscripts.CreateCustomerTest">
+        <methods>
+          <include name="classsetup"/>
+          <include name="loginSetup"/>
+          <include name="classteardown"/>
+          <include name="logout"/>
+          <include name="createCustomerWithNameAndDescription"/>
+        </methods>
+      </class> <!-- Com.actitime.testscripts.CreateCustomerTest -->
+    </classes>
+  </test> <!-- CreateCustomerTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
